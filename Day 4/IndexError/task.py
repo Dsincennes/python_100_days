@@ -7,3 +7,16 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
                      "New Mexico", "Arizona", "Alaska", "Hawaii"]
 
 print(states_of_america)
+
+
+fruits = ["Cherry", "Apple", "Pear"]
+print(fruits[2]) #This will be an IndexError
+
+
+fruits = ["Cherry", "Apple", "Pear"]
+print(fruits)
+veg = ["Cucumber", "Kale", "Spinnach"]
+print(veg)
+fruits_and_veg = [fruits, veg]
+
+print(fruits_and_veg[0][1])
